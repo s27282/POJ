@@ -188,26 +188,6 @@ public class Main {
 
     }
 
- // public static void zadanie9() {
-
-     // char cel = (char) ('a' + (int) (Math.random() * 26));
-      // char strzal;
-      // do {
-         //  System.out.print("Zgadnij literę między a i z: ");
-        //    strzal = (char) System.in.read();
-
-       //    if (strzal == cel) {
-      //          System.out.println("Brawo, wygrałeś!");
-        //    } else if (strzal < cel) {
-      //        System.out.println("Strzeliłeś zbyt nisko!");
-      //      } else {
-      //         System.out.println("Strzeliłeś zbyt wysoko!");
-      //      }
-    //    } while (strzal != cel);
-
-    // System.in.close();
-  // }
-
     public static void zadanie10() {
         System.out.println();
         int start = 2;
