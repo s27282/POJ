@@ -22,27 +22,27 @@ class Pizza {  //  klasa reprezentująca pizzę
 
     public String getNazwa() {
         return nazwa;
-    } //  getter zwracający nazwe pizzy
+    } 
 
     public List<String> getSklad() {
         return sklad;
-    }  //  getter zwracający sklad danej pizzy
+    }  
 
     public int getOstrosc() {
         return ostrosc;
-    } //  getter zwracający ostrosc danej pizzy
+    } 
 
     public double getCenaM() {
         return cenaM;
-    } //  getter zwracający cene małej pizzy
+    } 
 
     public double getCenaS() {
         return cenaS;
-    } //  getter zwracający cene sredniej pizzy
+    } 
 
     public double getCenaD() {
         return cenaD;
-    } //  getter zwracający cene duzej pizzy
+    } 
 
     public double getCena(String rozmiar) { //  wybór rozmiaru pizzy
         switch (rozmiar) {
@@ -86,19 +86,19 @@ class Zamowienie {  //  klasa reprezentująca zamówienie
 
     public String getAdres() {
         return adres;
-    }  //  getter zwracający adres
+    }  
 
     public List<Pizza> getPizze() {
         return pizze;
-    } //  getter zwracający nazwe pizzy
+    } 
 
     public List<Integer> getIlosci() {
         return ilosci;
-    } //  getter zwracający ilosci pizzy
+    } 
 
     public List<String> getRozmiary() {
         return rozmiary;
-    } //  getter zwracający rozmiary pizzy
+    } 
 
     public double obliczCene() {  // obliczanie ceny przez sumowanie ilości poszczególnych rozmiarów pizzy
         double cena = 0.0;
@@ -166,7 +166,7 @@ class MenuPizzerii {  //  klasa reprezentująca menu pizzerii
     public void wyswietlMenu() { //  wyswietlanie menu pizzerii
         System.out.println();
         System.out.println("_______________________________________________");
-        System.out.println("Menu:");
+        System.out.println("Menu Picante:");
         for (int i = 0; i < menu.size(); i++) {
             Pizza pizza = menu.get(i);
             System.out.println((i + 1) + ". " + pizza.getNazwa());
