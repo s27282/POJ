@@ -185,7 +185,7 @@ class ZamawianiePizzy {  //  główna klasa programu
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Witamy w naszej pizzeri!!"); // utworzenie nowego zamówienia
+        System.out.print("Witamy w pizzeri Picante!!"); // utworzenie nowego zamówienia
         System.out.println();
         System.out.println("_________________________");
         System.out.print("Zanim przejdziemy do menu,czy chcesz zamówić pizzę z dostawą? (Tak/Nie): ");
